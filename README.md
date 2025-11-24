@@ -12,9 +12,9 @@ Simulating a 1D Model G soliton particle, with options of 1D cartesian, or 1D sy
 Tested for: Ubuntu 24.04.3 LTS on i7-4790 (Optiplex 7020/9020), Python 3.10+
 
 Usage examples:
-    python3 model_g_particle_geom_simple.py --geometry 1d
-    python3 model_g_particle_geom_simple.py --geometry 1d_cyl
-    python3 model_g_particle_geom_simple.py --geometry 1d_sph
+    python3 model_g_particle_1d3dgeom_simple_1g.py.py --geometry 1d
+    python3 model_g_particle_1d3dgeom_simple_1g.py --geometry 1d_cyl
+    python3 model_g_particle_1d3dgeom_simple_1g.py --geometry 1d_sph
 
 Requires:
     pip install numpy scipy matplotlib imageio imageio[ffmpeg]
